@@ -1,0 +1,171 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffdab9;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+
+.hero {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    text-align: center;
+    color: #353131;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+
+.receitas {
+    padding: 40px;
+}
+
+.receita {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.receita img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.receita h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.receita a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.beneficios {
+    padding: 40px;
+    text-align: center;
+}
+
+.beneficios ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.beneficios li {
+    margin-bottom: 10px;
+}
+
+
+.contato {
+    padding: 40px;
+}
+
+.contato form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contato input,
+.contato textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contato textarea {
+    height: 150px;
+}
+
+.contato button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.login,
+.cadastro {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    display: none;
+}
+#torta{
+    width:40%;
+}
+#variedade{
+    width:25%;
+}
